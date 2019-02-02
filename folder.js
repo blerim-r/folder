@@ -204,25 +204,12 @@ function folder(selector, config) {
     folderDivStatic.append(singleNavBottom);
 
     // update font size based on element number
-    if (folderDivStatic.children.length >= 1) {
-      var counter = folderDivStatic.children.length;
-      if (folderDivStatic.lastChild.offsetWidth < 161) {
-        for (var i = 0; i < counter; i++){
-          folderDivStatic.children[i].children[0].style.fontSize = "11px";
-        }
-      } else {
-        for (var j = 0; j < counter; j++) {
-          folderDivStatic.children[j].children[0].style.fontSize = "15px";
-        }
-      }
-    }
-
-
+    updateFontSize()
     updateBottomContainer();
 
     var navX = singleNavBottom.lastChild.lastChild;
     var navResize = singleNavBottom.lastChild.childNodes[2];
-    var navMax = singleNavBottom.lastChild.childNodes[1];
+    var navMax = singleNavBottom.lastChild.childNodes[isMac(config) ? 0 : 1];
     navX.addEventListener('click', function () {
 
       this.parentNode.parentNode.remove();
