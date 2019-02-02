@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Template</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="folder.css">
     <script src="folder.js"></script>
 </head>
 <body>
-
-<div id="selector">Text
-    <div>blerim</div>
-    <div>jurgen</div>
+<div class="main">
+    <div onclick="folder(this)" style="background-color: red" class="single"></div>
+    <div onclick="folder(this, {template: 'windows', title: 'bbbb'})" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this, {template: 'mac', title: 'bbbb'})" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
+    <div onclick="folder(this)" style="background-color: blue" class="single"></div>
 </div>
+
 
 <script src="index.js"></script>
 
