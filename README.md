@@ -12,7 +12,8 @@ Full featured JavaScript folder style gallery. No dependencies.
 * Multiple template support (Linux, Windows, Mac)
 * Resize Support
 
-Example
+##Example
+
 Insert all divs that you want to make like folder in a relative div container
 
 ## Usage
