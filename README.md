@@ -16,4 +16,6 @@ Example
 Insert all divs that you want to make like folder in a relative div container
 
 ## Usage
+```sh
 folder("#yourDiv", {title: "Div Title", template: "windows|mac|linux"});
+```
