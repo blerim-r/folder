@@ -1,6 +1,6 @@
 Full featured JavaScript folder style gallery. No dependencies.
 
-![lightgallery](https://raw.githubusercontent.com/bRexhmati/folder/master/Folder.png?token=AmmUJhISJqXCsitscEIJfLVi59QhbXUbks5cVi4ZwA%3D%3D)
+![lightgallery](https://raw.githubusercontent.com/bRexhmati/folder/master/Folder.png)
 
 * [Codepen demo](https://codepen.io/brexhmati/full/XORyjm)
 
